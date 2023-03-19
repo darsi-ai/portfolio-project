@@ -79,7 +79,7 @@ h2{
     margin-bottom: 60px;
 }
 
-a{
+.main-button{
     color: var(--bg-main-color) !important;
     padding: 18px 30px !important;
     background: var(--main-color) !important;
@@ -112,3 +112,42 @@ a{
     margin: 10px 0px;
     border-radius: 10px;
 } 
+
+.navigation{
+    background-color: transparent !important;
+    position: fixed;
+}
+
+.navigation a{
+    padding: 5px 30px !important;
+    color: var(--main-color) !important;
+}
+
+.biglink{
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+
+.minilink{
+    margin: 0 30px;
+    font-family: var(--heading-font);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.mail-link:hover{
+    color: var(--main-color);
+}
+
+.icon{
+    font-size: 30px;
+    color: var(--secondary-color);
+}
