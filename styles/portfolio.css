@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif; - 400, 500, 700
     --secondary-color: #F65282;
     --bg-main-color: #000;
 }
+/* for the main page */
 @media(min-width: 990px){
     .all-together{
         padding: 200px 50px;
@@ -46,12 +47,48 @@ font-family: 'Roboto', sans-serif; - 400, 500, 700
         padding: 50px 50px !important;
     }
 
+    .all-together p{
+        margin-bottom: 10px !important;
+    }
+
     .hero p{
         font-size: 20px !important;
     }
 
     .all-together{
         padding: 20px 0px;
+    }
+}
+
+/* for the about page */
+@media(max-width: 576px){
+    .about-hero{
+        text-align: center;
+    }
+
+    .about-hero h1, p{
+        margin: 0 10px !important;
+    }
+
+    .about-hero h3{
+        margin: 100px 10px !important;
+    }
+
+    .about-hero h1{
+        font-size: 40px !important;
+    }
+
+    .about-hero h3{
+        font-size: 16px;
+        margin-bottom: 0px !important;
+    }
+
+    .contact-icon{
+        font-size: 20px !important;
+    }
+
+    .about-container a{
+        margin-left: 0px !important;
     }
 }
 
@@ -150,4 +187,47 @@ h2{
 .icon{
     font-size: 30px;
     color: var(--secondary-color);
+    padding: 0px 10px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-hero{
+    font-family: var(--default-font);
+    color: var(--main-color);
+}
+
+.about-hero img{
+    margin: 50px 50px;
+}
+
+.about-hero p{
+    margin: 0px 50px;
+    margin-right: 200px;
+}
+
+.about-hero img{
+    border-radius: 4px;
+    max-width: 80%;
+}
+
+.about-hero h1{
+    font-size: 64px;
+    margin-left: 50px;
+}
+
+.about-hero h3{
+    font-size: 18px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color:var(--secondary-color);
+}
+
+.see-more-button{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 14px 28px !important;
 }
