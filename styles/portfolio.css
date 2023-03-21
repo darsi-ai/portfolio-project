@@ -92,6 +92,17 @@ font-family: 'Roboto', sans-serif; - 400, 500, 700
     }
 }
 
+/* for the contact page */
+@media(max-width:576px){
+    .info h1{
+        margin-bottom: 20px !important;
+    }
+
+    .info p{
+        margin-bottom: 20px !important;
+    }
+}
+
 body{
     background-color: var(--bg-main-color);
 }
@@ -230,4 +241,22 @@ h2{
     margin-top: 30px;
     margin-left: 50px;
     padding: 14px 28px !important;
+}
+
+.info{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.info h3{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.info p{
+    color: var(--main-color);
+    font-size: 18px;
+    font-family: var(--heading-font);
+    font-weight: 400px;
+    margin-bottom: 50px
 }
