@@ -103,6 +103,23 @@ font-family: 'Roboto', sans-serif; - 400, 500, 700
     }
 }
 
+/* for the gallery page */
+@media(max-width: 576px){
+    .photo{
+        max-width: 200px !important;
+    }
+}
+
+@media(max-width: 1300px){
+    .photo{
+        max-width: 350px !important;
+    }
+
+    .gallery-container{
+        text-align: center;
+    }
+}
+
 body{
     background-color: var(--bg-main-color);
 }
@@ -259,4 +276,40 @@ h2{
     font-family: var(--heading-font);
     font-weight: 400px;
     margin-bottom: 50px
+}
+
+.gallery-hero {
+    text-align: center;
+}
+
+.gallery-hero h1{
+    margin-top: 100pxs;
+}
+
+.gallery{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text h1{
+    margin-top: 100px;
+}
+
+.gallery-photo{
+    flex-grow: 0;
+    padding: 10px;
+}
+
+.photo{
+    max-width: 450px;
+    border-radius: 4px;
+}
+
+.g-icon{
+    margin-top: 10px;
 }
