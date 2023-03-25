@@ -313,3 +313,7 @@ h2{
 .g-icon{
     margin-top: 10px;
 }
+
+.about-photo{
+    max-width: 400px;
+}
